@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+  width: auto;
+  min-height: 5vh;
+  padding: 1.25rem 0;
+}
+
+nav ul {
+  text-align: center;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 45%;
+  text-align: left;
+  list-style: none;
+  margin: 0;
+}
+
+nav a {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: white;
+  padding: 0 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

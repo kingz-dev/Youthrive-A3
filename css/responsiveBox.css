@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 600px Break point */
+@media screen and (max-width: 37.5rem) {
+  .meals div {
+    display: block;
+    width: 100%;
+    margin: 1rem auto;
+  }
+}
+
+/* 500px Break point */
+@media screen and (max-width: 31.25rem) {
+  main h1 {
+    text-align: left;
+    color: purple;
+  }
+
+  nav ul {
+    text-align: left;
+  }
+
+  nav ul li {
+    width: auto;
+  }
+}
